@@ -11,6 +11,9 @@ Since we have moved to digital images, there are tons of images on your computer
 3. Mistral 7B running locally through Ollama - for adding more natural tags and also handling user interaction
 4. Redis Cloud to store the tags, file path and for easy retrieval
 
+   <img width="848" height="636" alt="image" src="https://github.com/user-attachments/assets/04c1cedf-bae9-488a-bf48-bc11eb429e52" />
+
+
 **How to Use :**
 1. This project uses onnx model, since the file size is above 100mb, it was not possible to commit it directly.
    Use following link to download latest onnx models : https://github.com/onnx/models/tree/main/validated/vision/classification/resnet/model
