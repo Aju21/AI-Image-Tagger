@@ -6,10 +6,10 @@ Since we have moved to digital images, there are tons of images on your computer
 
 **Technologies used :**
 
-.Net Core 8 for base application
-Onnx model for object detection.
-Mistral 7B running locally through Ollama - for adding more natural tags and also handling user interaction
-Redis Cloud to store the tags, file path and for easy retrieval
+1. .Net Core 8 for base application
+2. Onnx model for object detection.
+3. Mistral 7B running locally through Ollama - for adding more natural tags and also handling user interaction
+4. Redis Cloud to store the tags, file path and for easy retrieval
 
 **How to Use :**
 1. This project uses onnx model, since the file size is above 100mb, it was not possible to commit it directly.
@@ -23,5 +23,5 @@ Else install Mistral 7B or equivalent using ollama
 
 **Future Improvements :**
 
-Add GUI- making web app UI in order to show images
-Add OCR and face tag support
+1. Add GUI- making web app UI in order to show images
+2. Add OCR and face tag support
